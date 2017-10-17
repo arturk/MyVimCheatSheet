@@ -1,3 +1,3 @@
 # MyVimCheatSheet
 
-r! find .name Filename*.ext .> select file -> CTRL+W gv
+r! find .name Filename*.ext .> select file -> CTRL+W gf

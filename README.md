@@ -1,6 +1,6 @@
 # MyVimCheatSheet
 
-# Use plugin for IDE
+## Use plugin for IDE
 mkdir -p ~/.vim/pack/python-mode/start
 cd ~/.vim/pack/python-mode/start
 git clone --recurse-submodules https://github.com/python-mode/python-mode.git

@@ -18,3 +18,4 @@ set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [ASCII=\%03.3b]\ [HEX=\%0
 autocmd BufNewFile  *.html 0r ~/.vim/templates/skeleton.html
 
 git clone https://github.com/preservim/nerdtree.git ~/.vim/pack/vendor/start/nerdtree
+map <C-n> :NERDTreeToggle<CR>

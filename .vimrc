@@ -19,6 +19,11 @@ autocmd BufNewFile  *.html 0r ~/.vim/templates/skeleton.html
 
 git clone https://github.com/preservim/nerdtree.git ~/.vim/pack/vendor/start/nerdtree
 git clone https://github.com/dart-lang/dart-vim-plugin.git ~/.vim/pack/vendor/start/dart-vim-plugin
+mkdir -p ~/.vim/pack/coc/start
+cd ~/.vim/pack/coc/start
+curl --fail -L https://github.com/neoclide/coc.nvim/archive/release.tar.gz|tar xzfv -
+
+
 map <C-n> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 

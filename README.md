@@ -1,9 +1,9 @@
 # MyVimCheatSheet
 
-## Use plugin for IDE
-mkdir -p ~/.vim/pack/python-mode/start
-cd ~/.vim/pack/python-mode/start
-git clone --recurse-submodules https://github.com/python-mode/python-mode.git
+
+git clone https://github.com/preservim/nerdtree.git ~/.vim/pack/vendor/start/nerdtree
+git clone https://github.com/dart-lang/dart-vim-plugin.git ~/.vim/pack/vendor/start/dart-vim-plugin
+git clone --depth 1 https://github.com/dense-analysis/ale.git ~/.local/share/nvim/site/pack/git-plugins/start/ale
 
 #
 Find files and open those:
